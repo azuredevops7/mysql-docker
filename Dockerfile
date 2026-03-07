@@ -1,10 +1,10 @@
 FROM mysql:8.0
 
 # Set environment variables
-ENV MYSQL_ROOT_PASSWORD=rootpassword
-ENV MYSQL_DATABASE=myapp_db
-ENV MYSQL_USER=myapp_user
-ENV MYSQL_PASSWORD=myapp_password
+ENV MYSQL_ROOT_PASSWORD=shammu101
+ENV MYSQL_DATABASE=shammu_db
+ENV MYSQL_USER=raju
+ENV MYSQL_PASSWORD=raju123
 
 # Copy initialization scripts (optional)
 # These will run automatically when container starts for the first time
